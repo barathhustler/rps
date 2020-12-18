@@ -1,0 +1,149 @@
+.container-1{
+    /* border: 1px solid chocolate; */
+    /* text-align: center; */
+    position: relative;
+    margin: 0;
+    /* height: 25%; */
+    font-size: 16px;
+    font-family: "Vibur", cursive;
+    font-size: 1rem;
+    background-image: url("https://freepngimg.com/thumb/nature/5-2-nature-png-hd.png");
+
+  /* Full height */
+  height: 50%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+    /* min-height: 25%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.6rem;
+    text-align: center;
+    line-height: 1;
+    color: #ff0442;
+    animation: neon .2s ease-in-out infinite alternate;
+}
+    @keyframes neon {
+        from {
+          text-shadow:
+          0 0 6px rgba(202,228,225,0.92),
+          0 0 30px rgba(202,228,225,0.34),
+          0 0 12px rgba(30,132,242,0.52),
+          0 0 21px rgba(30,132,242,0.92),
+          0 0 34px rgba(30,132,242,0.78),
+          0 0 54px rgba(30,132,242,0.92);
+        }
+        to {
+          text-shadow:
+          0 0 6px rgba(211, 138, 195, 0.98),
+          0 0 30px rgba(122, 197, 188, 0.42),
+          0 0 12px rgba(30,132,242,0.58),
+          0 0 22px rgba(20, 107, 201, 0.84),
+          0 0 38px rgba(21, 194, 87, 0.88),
+          0 0 60px rgb(224, 33, 33);
+        }
+      } 
+
+/* .flex-box-container-1{
+    display: flex;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box-container-1 div{
+    display: flex;
+    padding: 1px;
+    /* border: 1px solid rgb(238, 130, 157); */
+    /* align-items: center;
+}  */
+
+.container-2{
+    /* text-align: center; */
+    position: relative;
+    margin: 0;
+    /* height: 45%; */
+    font-size: 16px;
+    font-family: "Vibur", cursive;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-image: url('https://www.clipartmax.com/png/full/84-846245_this-free-icons-png-design-of-mountains-hd-clipart-images-of-scenary.png');
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* min-height: 45%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.6rem;
+    text-align: center;
+    line-height: 1;
+    color: #b004ff;
+    animation: neon .2s ease-in-out infinite alternate;
+}
+.container-3{
+    position: relative;
+    margin: 0;
+    /* height: 45%; */
+    font-size: 16px;
+    font-family: "Vibur", cursive;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-image: url('https://www.clipartmax.com/png/full/115-1154258_2000px-rock-paper-scissors-play-rock-paper-scissors.png');
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* min-height: 45%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.6rem;
+    text-align: center;
+    line-height: 1;
+    color: #b004ff;
+    animation: neon .2s ease-in-out infinite alternate;
+}
+
+.flex-box-container-2,.flex-box-container-3{
+    display: flex;
+    /* border: 1px solid goldenrod; */
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box-container-2 img{
+    border: 1px;  
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 7px;
+    box-shadow: -9px 11px 38px 1px rgba(0,0,0,0.74);
+}
+.flex-box-rps img:hover{
+    border: 1px  ;  
+    margin: 7px;
+    box-shadow: -9px 11px 38px 1px rgba(255, 2, 2, 0.74);
+}
